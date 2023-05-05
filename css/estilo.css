@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.contenedorMarvel {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.contenedorMarvel > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.cuerpoPagina > div {
+    margin-bottom: 3%;
+}
+
+img {
+    width: 60%;
+}
